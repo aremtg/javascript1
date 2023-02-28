@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+#contenedor{
+    background: rgb(243, 248, 248);
+    width: 400px;
+    height: 344px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+#mibtn{
+    width: max-content;
+    height: max-content;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    background-color: rgba(0, 195, 255, 0.651);
+    font-size: 30px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    margin-bottom: -17rem;
+}
